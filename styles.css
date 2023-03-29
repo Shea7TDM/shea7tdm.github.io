@@ -1,12 +1,16 @@
 body {
     background-color:rgb(62, 56, 122);
-    font-size:350%
+    font-size:310%
 }
 
 h1 {
     font-family:Segoe UI;
-    
+    background-image:url("art-me-banner-short.png");
+    background-repeat:no-repeat;
+    background-size:300% 300%;
     text-shadow: 2px 2px 7px rgb(9, 247, 9);
+    border:250px;
+    margin:210px;
 }
 
 h2 {
