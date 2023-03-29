@@ -4,6 +4,15 @@ body {
 }
 
 h1 {
-    font-family:Segoe UI Light;
+    font-family:Segoe UI;
     font-size:x-large
+}
+
+h2 {
+    font-family:Segoe UI Light;
+    font-size: large;
+}
+
+p {
+    font-family:Segoe UI Light;
 }
