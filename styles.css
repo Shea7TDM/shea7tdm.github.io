@@ -1,6 +1,6 @@
 body {
     background-color:rgb(62, 56, 122);
-    font-size:350%
+    font-size:300%
 }
 
 h1 {
@@ -14,6 +14,10 @@ h2 {
    
 }
 
+h3 {
+    font-size:x-small;
+    color:rgb(62,56,150);
+}
 p {
     font-family:Segoe UI Light;
     text-align:center;
