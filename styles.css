@@ -5,20 +5,30 @@ body {
 
 h1 {
     font-family:Segoe UI;
-    
     text-shadow: 2px 2px 7px rgb(9, 247, 9);
 }
 
 h2 {
     font-family:Segoe UI Light;
-   
+   color:rgb(183, 184, 185);
 }
 
 h3 {
     font-size:x-small;
-    color:rgb(62,56,150);
+    color:rgb(183,184,185);
 }
 p {
     font-family:Segoe UI Light;
     text-align:center;
+    text-decoration:wavy;
+    color:rgb(183,184,185);
+}
+
+
+a{
+    text-align:center;
+    color:red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline;
+    font-size:25px;
 }
