@@ -14,8 +14,11 @@ h2 {
 }
 
 h3 {
-    font-size:x-small;
-    color:rgb(183,184,185);
+    font-size:28px;
+    color:rgb(253, 86, 86);
+    font-family:Segoe UI Semibold;
+    text-decoration:underline;
+    margin:37px;
 }
 p {
     font-family:Segoe UI Light;
@@ -28,7 +31,7 @@ p {
 a{
     text-align:center;
     color:red;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Segoe UI Semibold;
     text-decoration:underline;
     font-size:25px;
 }
