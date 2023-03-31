@@ -34,5 +34,12 @@ p {
 h4 {
     font-family:Segoe UI Light;
     color:rgb(184, 183, 183);
-    margin:100px;
+    margin:90px;
+}
+
+h3 {
+    font-family:Segoe UI Bold;
+    text-decoration:underline;
+    color:rgb(253, 86, 86);
+    margin:40px
 }
