@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(62, 56, 122);
+    background-color:rgb(46, 44, 73);
     font-size:300%
 }
 
@@ -15,7 +15,7 @@ h2 {
 
 h3 {
     font-size:28px;
-    color:rgb(253, 86, 86);
+    color:rgb(255, 109, 109);
     font-family:Segoe UI Semibold;
     text-decoration:underline;
     margin:37px;
@@ -32,6 +32,6 @@ a{
     text-align:center;
     color:red;
     font-family:Segoe UI Semibold;
-    text-decoration:underline;
+    text-decoration:wavy;
     font-size:25px;
 }
