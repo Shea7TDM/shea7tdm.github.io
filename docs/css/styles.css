@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --dark-color: hsl(var(--hue), 100%, 9%);
+    --base: hsl(var(--hue), 95%, 50%);
+    --complimentary1: hsl(var(--hue-complimentary1), 95%, 50%);
+    --complimentary2: hsl(var(--hue-complimentary2), 95%, 50%);
+  
+    --font-family: 'Nunito', system-ui;
+
+    --light-bg-gradient: linear-gradient(
+        to right bottom,
+        hsl(var(--hue), 95%, 99%),
+        hsl(var(--hue), 95%, 84%)
+    );
+    --dark-bg-gradient: linear-gradient(
+        to right bottom,
+        hsl(var(--hue), 95%, 10%),
+        hsl(var(--hue), 95%, 40%)
+    );
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body { place-items:center; align-items:center; justify-items:center; padding:2rem; font-family: var(--font-family); display:grid; 
+	
+    background: linear-gradient(90deg, #FFA500, #ffa200, #fab43b, #ffd54d, #ffd900 );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+h1 { font-family:(var(--font-family)); background-image:url("art-me-banner-short.png"); background-repeat:no-repeat; background-size:100% 100%; text-shadow: 2px 2px 7px rgb(9, 247, 9); border:50px; margin:2px; }
+
+h2 { font-family:var(--font-family); color:rgb(184, 183, 183); font-size:50px; }
+
+a { font-size: 20px; font-family:var(--font-family); text-align:center; color:red; align-items:center; }
+
+p { font-family:var(--font-family); text-align:center; color:rgb(231, 227, 227); font-size:40px; }
+
+h4 { font-family:var(--font-family); color:rgb(184, 183, 183); margin:80px; }
+
+h3 { font-family:Segoe UI Semibold; text-decoration:underline; color:rgb(253, 86, 86); margin:40px; }
+
+img { box-shadow: 1px 6px 6px 6px rgba(25, 25, 25, 0.275); }
+
+ /* ALL OF THE CODE BELOW, INCLUDING SOME OF THE :ROOT IS EXPERIMENTAL AND HAS BEEN MERCILESSLY STOLEN FROM KITTYLE'S SITE (sorry), IT STILL HAS TO BE MODIFIED AND IMPROVED FOR FUTURE (possible) USE */
+
+ body.dark { color: var(--light-color); }
+
+ .box { max-width: 1470px; max-height:400px; padding:3rem; display: flex; box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1); }
+ 
+ .box.dark { border: 1px solid rgba(25, 25, 25, 0.125); background: rgba(25, 25, 25, 0.375); }
+ 
+ .box__inner { max-width: 80rem;}
+ 
+ .box__title { font-size: 1.875rem; line-height: 2.75rem; font-weight: 700; letter-spacing: -0.025rem; margin-bottom: 0.75rem; }
+ 
+ .box__description { font-size: 1.2rem; line-height: 1.75rem; margin-bottom: 1rem; }
+ 
+
+ 
+
