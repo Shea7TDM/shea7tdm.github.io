@@ -41,11 +41,11 @@ body { place-items:center; align-items:center; justify-items:center; padding:2re
 
 h1 { font-family:(var(--font-family)); background-image:url("art-me-banner-short.png"); background-repeat:no-repeat; background-size:100% 100%; text-shadow: 2px 2px 7px rgb(9, 247, 9); border:50px; margin:2px; }
 
-h2 { font-family:Segoe UI Light; color:rgb(184, 183, 183); font-size:50px; }
+h2 { font-family:var(--font-family); color:rgb(184, 183, 183); font-size:50px; }
 
 a { font-size: 20px; font-family:var(--font-family); text-align:center; color:red; align-items:center; }
 
-p { font-family:Segoe UI Light; text-align:center; color:rgb(231, 227, 227); font-size:40px; }
+p { font-family:var(--font-family); text-align:center; color:rgb(231, 227, 227); font-size:40px; }
 
 h4 { font-family:var(--font-family); color:rgb(184, 183, 183); margin:80px; }
 
