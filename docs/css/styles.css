@@ -55,19 +55,15 @@ img { box-shadow: 1px 6px 6px 6px rgba(25, 25, 25, 0.275); }
 
 button { margin:5px; position:relative; top:100px; }
 
- /* ALL OF THE CODE BELOW, INCLUDING SOME OF THE :ROOT IS EXPERIMENTAL AND HAS BEEN MERCILESSLY STOLEN FROM KITTYLE'S SITE (sorry), IT STILL HAS TO BE MODIFIED AND IMPROVED FOR FUTURE (possible) USE */
-
- body.dark { color: var(--light-color); }
-
- .box { max-width: 1470px; max-height:450px; min-height:300px; padding:4rem; display: flex; box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1); border:0px solid rgb(145, 145, 145); border-radius:16px; backdrop-filter: blur(40px); }
+.box { max-width: 1470px; max-height:450px; min-height:300px; padding:4rem; display: flex; box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1); border:0px solid rgb(145, 145, 145); border-radius:16px; backdrop-filter: blur(40px); }
  
- .box.dark { border: 1px solid rgba(25, 25, 25, 0.125); background: rgba(25, 25, 25, 0.375); }
+.box.dark { border: 1px solid rgba(25, 25, 25, 0.125); background: rgba(25, 25, 25, 0.375); }
  
- .box__inner { max-width: 80rem; }
+.box__inner { max-width: 80rem; }
  
- .box__title { font-size: 1.875rem; line-height: 2.75rem; font-weight: 700; letter-spacing: -0.025rem; margin-bottom: 0.75rem; }
+.box__title { font-size: 1.875rem; line-height: 2.75rem; font-weight: 700; letter-spacing: -0.025rem; margin-bottom: 0.75rem; }
  
- .box__description { font-size: 1.2rem; line-height: 1.75rem; margin-bottom: 1rem; }
+.box__description { font-size: 1.2rem; line-height: 1.75rem; margin-bottom: 1rem; }
  
 
  
