@@ -127,6 +127,14 @@
     }
 }
 
+.tilt {
+    transition: 0.2s;
+}
+
+.tilt:hover {
+    transform: rotate(4deg);
+}
+
 blink {
     -webkit-animation: blinker steps(1) 1s infinite;
     animation: blinker steps(1) 1s infinite;
