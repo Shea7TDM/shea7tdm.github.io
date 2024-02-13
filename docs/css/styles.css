@@ -31,6 +31,15 @@
 	}
 }
 
+.tilt {
+    transition: 0.2s;
+}
+
+.tilt:hover {
+    transform: rotate(4deg);
+}
+
+
 body { place-items:center; align-items:center; justify-items:center; padding:2rem; font-family: var(--font-family); display:grid; 
 	
     background: linear-gradient(90deg, #FFA500, #ffa200, #fab43b, #ffd54d, #ffd900 );
