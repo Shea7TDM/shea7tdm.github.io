@@ -162,13 +162,11 @@ a { font-size: 20px; font-family:var(--font-family); text-align:center; color:re
 
 p { font-family:var(--font-family); text-align:center; color:rgb(231, 227, 227); font-size:40px; }
 
-h4 { font-family:var(--font-family); color:rgb(43, 43, 43); margin:10px; }
+h4 { font-family:var(--font-family); color:rgb(145, 129, 99); margin:10px; padding:10px; padding-left: 20px;}
 
 h3 { font-family:Segoe UI Semibold; color:rgb(184, 183, 183); font-size:25px; }
 
-img { box-shadow: 1px 6px 6px 6px rgba(25, 25, 25, 0.275); }
-
-button { margin:5px; position:relative; top:100px; }
+button { margin:5px; position:relative; top:105px; background-color:rgba(0, 0, 0, 0); border:rgba(0, 0, 0, 0); left:30px;}
 
 .box { max-width: 1470px; max-height:450px; min-height:300px; padding:4rem; display: flex; box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1); border:0px solid rgb(145, 145, 145); border-radius:16px; backdrop-filter: blur(40px); }
  
