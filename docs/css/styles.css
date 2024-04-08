@@ -141,10 +141,19 @@ blink {
     text-decoration: bold;
 }
 
+.tilt {
+    transition: 0.2s;
+}
+
+.tilt:hover {
+    transform: rotate(4deg);
+}
+
+
 body { place-items:center; align-items:center; justify-items:center; padding:2rem; font-family: var(--font-family); display:grid; 
 	
-    background: linear-gradient(90deg, #FFA500, #ffa200, #fab43b, #ffd54d, #ffd900 );
-    background: -webkit-linear-gradient(90deg, #FFA500, #ffa200, #fab43b, #ffd54d, #ffd900 ); /* mobile compatibility, safari 5.1+ */
+  background: linear-gradient(90deg, #FFA500, #ffa200, #fab43b, #ffd54d, #ffd900 );
+  background: -webkit-linear-gradient(90deg, #FFA500, #ffa200, #fab43b, #ffd54d, #ffd900 ); /* mobile compatibility, safari 5.1+ */
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
