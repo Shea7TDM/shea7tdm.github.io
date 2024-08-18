@@ -162,15 +162,15 @@ html,body {
     height:100%;
 }
 
-h1 { font-family:(var(--font-family)); background-image:url("art-me-banner-short.png"); background-repeat:no-repeat; background-size:100% 100%; text-shadow: 2px 2px 7px rgb(9, 247, 9); border:50px; margin:2px; }
+h1 { font-family:(var(--font-family)); background-image:url("art-me-banner-short.png"); background-repeat:no-repeat; background-size:100% 100%; color: rgb(255, 255, 255); text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #abcdef, 0 0 20px #deffff; border:50px; margin:2px; }
 
 h2 { font-family:var(--font-family); color:rgb(184, 183, 183); font-size:50px; }
 
-a { font-size: 20px; font-family:var(--font-family); text-align:center; color:red; align-items:center; bottom:100px; }
+a { font-size: 20px; font-family:var(--font-family); text-align:center; align-items:center; bottom:100px; text-decoration: none;}
 
 p { font-family:var(--font-family); text-align:center; color:rgb(231, 227, 227); font-size:40px; }
 
-h4 { font-family:var(--font-family); color:rgb(145, 129, 99); margin:10px; padding:10px; padding-left: 20px;}
+h4 { font-family:var(--font-family); color:rgb(145, 129, 99); margin:30px; padding:15px; padding-left: 20px;}
 
 h3 { font-family:Segoe UI Semibold; color:rgb(184, 183, 183); font-size:25px; }
 
@@ -185,7 +185,4 @@ button { margin:5px; position:relative; top:105px; background-color:rgba(0, 0, 0
 .box__title { font-size: 1.875rem; line-height: 2.75rem; font-weight: 700; letter-spacing: -0.025rem; margin-bottom: 0.75rem; }
  
 .box__description { font-size: 1.2rem; line-height: 1.75rem; margin-bottom: 1rem; }
- 
-
- 
 
